@@ -5,7 +5,7 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 
 # Load your model once
-model = tf.keras.models.load_model('models/eco_classifier_model.h5')
+model = tf.keras.models.load_model('models/eco_mobilenet_model.h5')
 
 # List of class names based on your dataset folders
 class_names = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
